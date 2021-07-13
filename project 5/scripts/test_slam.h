@@ -4,11 +4,9 @@
 #xterm  -e  " source /opt/ros/melodic/setup.bash; roscore" &
 #sleep 5
 
-#Since I am using ROS Melodic, which is not supported by this course, I used turtlebot3 which has completely different repositories and file structures
-#Hence There are some additional things need to be done which aren't asked in the course
-# 1) export the model of turtlebot and workspace => 
+
 export TURTLEBOT3_MODEL=waffle
-export TURTLEBOT_WORLD="$(rospack find map)/last_world.world"
+
 # then the following are already sourced in my personal Linux installation (change names according to your pc)
 
         xterm  -e  " source /opt/ros/kinetic/setup.bash; roscore" &
@@ -19,7 +17,7 @@ export TURTLEBOT_WORLD="$(rospack find map)/last_world.world"
 xterm  -e  "roslaunch turtlebot3_gazebo turtlebot3_world.launch" &
 sleep 5
 
-# gmapping => had to use turtlebot3 variations instead of turtlebot gmapping_demo (includes rviz too unlike turtlebot gmapping_demo.launch in ros kinetic)
+
 xterm -e "roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping" &
 #xterm  -e  "roslaunch turtlebot_gazebo gmapping_demo.launch" & 
 sleep 5
@@ -30,8 +28,7 @@ sleep 5
 #sleep 5
 
 # teleop: operating robot using keyboard
-xterm -e "source simulation_ws/devel/setup.bash;
-roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch"
+xterm -e "roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch"
 
 
 
