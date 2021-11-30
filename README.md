@@ -30,3 +30,17 @@ This repository is intended to run only on Linux Ubuntu v16.04 with ROS Kinetic.
 To install, clone the repository to /home/workspace. The command below will pull all required submodules and copy directly to Catkin Workspace. ` git clone --recurse-submodules https://github.com/aarishjain28/project_1 ` .
 
 Once all the necessary files are in place, run the following commands from the catkin_ws directory:
+
+```
+$ source devel/setup.bash
+$ catkin_make
+$ sudo chmod 7 src/ShellScripts/*.sh
+
+```
+The default rviz configuration can be updated to show the marker locations running the following in a new terminal: 
+`cp /home/workspace/catkin_ws/src/RVizConfig/navigation.rviz` 
+`/home/workspace/catkin_ws/src/turtlebot_interactions/turtlebot_rviz_launchers/rviz/`
+
+# Running the Simulation
+Now you should be prepared to go. From the `catkin_ws/` directory run the following command: 
+`./src/ShellScripts/home_service.sh`
