@@ -16,9 +16,9 @@ Submission of Final Project of the Udacity NanoDegree Program
 
 The final project of the Udacity Robotics Nanodegree incorporates a number of elements from previous projects, rolling them into a single solution that would actually be required to engineer a home service robot:
 
-Build a simulated map using Gazebo building editor
-Build a map of the environment using gmapping and teleop.
-Use Adaptive Monte Carlo Localisation to detect the robot position within the known map.
-Use the ROS move_base library to plot a path to a target pose and navigate to it.
-Write a custom node to encompass the path planning and driving libraries, listening for goal poses.
-Write a custom node to publish goal poses for the robot, then compare these to the actual pose (odometry topic) to determine success.
+* Build a simulated map using Gazebo building editor
+* Build a map of the environment using gmapping and teleop.
+* Use Adaptive Monte Carlo Localisation to detect the robot position within the known map.
+* Use the ROS move_base library to plot a path to a target pose and navigate to it.* 
+* Write a custom node to encompass the path planning and driving libraries, listening for goal poses.
+* Write a custom node to publish goal poses for the robot, then compare these to the actual pose (odometry topic) to determine success.
