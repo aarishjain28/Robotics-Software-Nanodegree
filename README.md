@@ -1,7 +1,5 @@
 # Udacity - Robotics Software engineer nanodegree program 
 
-Submission of project 1 - Build my World
-
  
 * In this Project I used all the knowledge provided to me in all the previous projects including SLAM, mapping, and everything. In this we used all the knowldege to make home service project in which we pick a object from one place and drop it in the another position.
 * For completing the project I took the help of the turtlebot3 package(with some changes in it) along with the other nodes written by me.
@@ -11,7 +9,7 @@ Submission of project 1 - Build my World
 * Package named pick_objects was made in order to move the robot to the desired positon in the world using a cpp program.
 * Another package add_markers was made to add virtual objects in the rviz so as to perform the task of home service in which object is to be picked and place at another position.
 
-Submission of Final Project of the Udacity NanoDegree Program
+## Submission of Final Project of the Udacity NanoDegree Program
 
 
 The final project of the Udacity Robotics Nanodegree incorporates a number of elements from previous projects, rolling them into a single solution that would actually be required to engineer a home service robot:
