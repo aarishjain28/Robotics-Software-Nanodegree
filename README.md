@@ -27,6 +27,6 @@ The final project of the Udacity Robotics Nanodegree incorporates a number of el
 # Installation
 This repository is intended to run only on Linux Ubuntu v16.04 with ROS Kinetic. Create a Catkin Workspace if you have not already done so, as explained here ((here)[http://wiki.ros.org/catkin/Tutorials/create_a_workspace]).
 
-To install, clone the repository to /home/workspace. The command below will pull all required submodules and copy directly to Catkin Workspace. ../ git clone --recurse-submodules https://github.com/aarishjain28/project_1 .
+To install, clone the repository to /home/workspace. The command below will pull all required submodules and copy directly to Catkin Workspace. $ git clone --recurse-submodules https://github.com/aarishjain28/project_1 .
 
 Once all the necessary files are in place, run the following commands from the catkin_ws directory:
