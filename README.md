@@ -22,3 +22,11 @@ The final project of the Udacity Robotics Nanodegree incorporates a number of el
 * Use the ROS move_base library to plot a path to a target pose and navigate to it.* 
 * Write a custom node to encompass the path planning and driving libraries, listening for goal poses.
 * Write a custom node to publish goal poses for the robot, then compare these to the actual pose (odometry topic) to determine success.
+
+
+# Installation
+This repository is intended to run only on Linux Ubuntu v16.04 with ROS Kinetic. Create a Catkin Workspace if you have not already done so, as explained here ((here)[http://wiki.ros.org/catkin/Tutorials/create_a_workspace]).
+
+To install, clone the repository to /home/workspace. The command below will pull all required submodules and copy directly to Catkin Workspace. git clone --recurse-submodules https://github.com/aarishjain28/project_1 .
+
+Once all the necessary files are in place, run the following commands from the catkin_ws directory:
